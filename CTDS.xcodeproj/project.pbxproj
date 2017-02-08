@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7073A429B9E3B490B2DB9A2B /* Pods_CTDS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590C04374C9765F6489DF8EA /* Pods_CTDS.framework */; };
+		E227B9321E49C29C00DA5F70 /* TableViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227B9311E49C29C00DA5F70 /* TableViewController1.swift */; };
+		E227B9341E49C38800DA5F70 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227B9331E49C38800DA5F70 /* TableViewController2.swift */; };
+		E227B9361E49DE0D00DA5F70 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227B9351E49DE0D00DA5F70 /* MyCollectionViewCell.swift */; };
+		E227B9381E4A065500DA5F70 /* NewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E227B9371E4A065500DA5F70 /* NewCollectionViewCell.swift */; };
 		E2787BB61E4868CC00390D77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2787BB51E4868CC00390D77 /* AppDelegate.swift */; };
 		E2787BB81E4868CC00390D77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2787BB71E4868CC00390D77 /* ViewController.swift */; };
 		E2787BBB1E4868CC00390D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2787BB91E4868CC00390D77 /* Main.storyboard */; };
 		E2787BBD1E4868CC00390D77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2787BBC1E4868CC00390D77 /* Assets.xcassets */; };
 		E2787BC01E4868CC00390D77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2787BBE1E4868CC00390D77 /* LaunchScreen.storyboard */; };
+		E2B9F42B1E49AE3100700122 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B9F42A1E49AE3100700122 /* VC2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24C1A01880C0B6FD8E030502 /* Pods-CTDS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTDS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CTDS/Pods-CTDS.release.xcconfig"; sourceTree = "<group>"; };
+		590C04374C9765F6489DF8EA /* Pods_CTDS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTDS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0603BB29A6FFAF9C998AC10 /* Pods-CTDS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTDS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CTDS/Pods-CTDS.debug.xcconfig"; sourceTree = "<group>"; };
+		E227B9311E49C29C00DA5F70 /* TableViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController1.swift; sourceTree = "<group>"; };
+		E227B9331E49C38800DA5F70 /* TableViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
+		E227B9351E49DE0D00DA5F70 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		E227B9371E4A065500DA5F70 /* NewCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewCollectionViewCell.swift; sourceTree = "<group>"; };
 		E2787BB21E4868CC00390D77 /* CTDS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTDS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2787BB51E4868CC00390D77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2787BB71E4868CC00390D77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,7 @@
 		E2787BBC1E4868CC00390D77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2787BBF1E4868CC00390D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2787BC11E4868CC00390D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B9F42A1E49AE3100700122 /* VC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VC2.swift; path = ../VC2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7073A429B9E3B490B2DB9A2B /* Pods_CTDS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F17FD97EBEC5C86D3AE5243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				590C04374C9765F6489DF8EA /* Pods_CTDS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2787BA91E4868CC00390D77 = {
 			isa = PBXGroup;
 			children = (
 				E2787BB41E4868CC00390D77 /* CTDS */,
 				E2787BB31E4868CC00390D77 /* Products */,
+				E88CA5A46598DDBB019A8A34 /* Pods */,
+				5F17FD97EBEC5C86D3AE5243 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,28 @@
 		E2787BB41E4868CC00390D77 /* CTDS */ = {
 			isa = PBXGroup;
 			children = (
+				E227B9371E4A065500DA5F70 /* NewCollectionViewCell.swift */,
+				E227B9351E49DE0D00DA5F70 /* MyCollectionViewCell.swift */,
 				E2787BB51E4868CC00390D77 /* AppDelegate.swift */,
 				E2787BB71E4868CC00390D77 /* ViewController.swift */,
+				E2B9F42A1E49AE3100700122 /* VC2.swift */,
+				E227B9331E49C38800DA5F70 /* TableViewController2.swift */,
+				E227B9311E49C29C00DA5F70 /* TableViewController1.swift */,
 				E2787BB91E4868CC00390D77 /* Main.storyboard */,
 				E2787BBC1E4868CC00390D77 /* Assets.xcassets */,
 				E2787BBE1E4868CC00390D77 /* LaunchScreen.storyboard */,
 				E2787BC11E4868CC00390D77 /* Info.plist */,
 			);
 			path = CTDS;
+			sourceTree = "<group>";
+		};
+		E88CA5A46598DDBB019A8A34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0603BB29A6FFAF9C998AC10 /* Pods-CTDS.debug.xcconfig */,
+				24C1A01880C0B6FD8E030502 /* Pods-CTDS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2787BC41E4868CC00390D77 /* Build configuration list for PBXNativeTarget "CTDS" */;
 			buildPhases = (
+				2FF85B1BB33D46C926C0C9DA /* [CP] Check Pods Manifest.lock */,
 				E2787BAE1E4868CC00390D77 /* Sources */,
 				E2787BAF1E4868CC00390D77 /* Frameworks */,
 				E2787BB01E4868CC00390D77 /* Resources */,
+				06E6E04B3FDBF4AD1A19BFA6 /* [CP] Embed Pods Frameworks */,
+				9232FB29EE0C66BD46279D80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					E2787BB11E4868CC00390D77 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8Z9Q2C694P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,11 +174,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06E6E04B3FDBF4AD1A19BFA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTDS/Pods-CTDS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FF85B1BB33D46C926C0C9DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9232FB29EE0C66BD46279D80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CTDS/Pods-CTDS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2787BAE1E4868CC00390D77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E227B9341E49C38800DA5F70 /* TableViewController2.swift in Sources */,
+				E2B9F42B1E49AE3100700122 /* VC2.swift in Sources */,
+				E227B9381E4A065500DA5F70 /* NewCollectionViewCell.swift in Sources */,
+				E227B9361E49DE0D00DA5F70 /* MyCollectionViewCell.swift in Sources */,
+				E227B9321E49C29C00DA5F70 /* TableViewController1.swift in Sources */,
 				E2787BB81E4868CC00390D77 /* ViewController.swift in Sources */,
 				E2787BB61E4868CC00390D77 /* AppDelegate.swift in Sources */,
 			);
@@ -258,8 +354,10 @@
 		};
 		E2787BC51E4868CC00390D77 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0603BB29A6FFAF9C998AC10 /* Pods-CTDS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Z9Q2C694P;
 				INFOPLIST_FILE = CTDS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = unicorn.CTDS;
@@ -270,8 +368,10 @@
 		};
 		E2787BC61E4868CC00390D77 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24C1A01880C0B6FD8E030502 /* Pods-CTDS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Z9Q2C694P;
 				INFOPLIST_FILE = CTDS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = unicorn.CTDS;
@@ -299,6 +399,7 @@
 				E2787BC61E4868CC00390D77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
